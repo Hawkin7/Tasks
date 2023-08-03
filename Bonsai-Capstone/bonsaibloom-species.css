@@ -1,0 +1,75 @@
+body {
+    background-image: url('./Images/background3.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;  
+}
+.myheader {
+    max-height: 10%;
+    background-color: rgb(250, 235, 215);
+    border-top: none;
+    color: black; 
+}
+.head-logo {
+    margin-top: 0%;
+    /* max-inline-size: 200px; */
+    max-width: 15vw; 
+    max-height: 15vh;
+}
+.header-links {   
+    column-gap: 2px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+h2, h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    align-items: center;
+    color: black;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+}
+.species-guide-section {
+    background-color: rgb(250, 235, 215. 0.8);
+}
+.card {
+    background-color: antiquewhite;
+    height: 90vh;
+}
+.mycardimages {
+    max-height: 50vh;
+}
+.species-characteristics-section {
+    background-color: rgba(250, 235, 215, 0.9);
+    border-radius: 5px;
+    margin: 4rem 5rem;
+    padding-top: -6rem;
+}
+.newsletter-section {
+    background-color: rgb(250, 235, 215,0.5);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+form {
+    justify-content: center;
+    padding: 0 3rem 3rem 4rem;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BonsaiBloom - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="bonsaibloom-mainpage.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Noto+Sans+TC:wght@300;400;500&family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation bar & logo -->
+    <header class="myheader">
+        <nav class="nav navbar" role="navigation">
+            <div class="container d-flex justify-content-between align-items-center py-2 container-sm">
+                <div class="logo navbar-brand">
+                    <a href="bonsaibloom-mainpage.html">
+                        <img src="./Images/bonsaibloom-high-resolution-logo-color-on-transparent-background.png" class="head-logo rounded-2">
+                    </a>
+                </div>
+                <ul class="nav d.flex flex-nowrap header-links">
+                    <li class="nav-item"><a class="nav-link" href="bonsaibloom-history.html">History and Prominent Figures</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bonsaibloom-species.html">Species Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bonsaibloom-s&c.html">Styling and Care</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Explanation of bonsai & history -->
+        <section class="explanation-section text-section">
+            <div class="container text-center py-5">
+                <h2>What is Bonsai?</h2>
+                <p>Bonsai is the art of growing trees and shrubs in containers, skillfully pruning and shaping them
+                    to create stunning miniature replicas of nature.</p>
+
+                <h2 class="pt-5">A Quick History</h2>
+                <p>Bonsai originated in China over a thousand years ago and was later embraced and refined by the
+                    Japanese, becoming an art form that embodies harmony, balance, and the beauty of imperfection.</p>
+            </div>
+        </section>
+
+        <!-- Quote and bonsai picture -->
+        <section class="quote-section">
+            <div class="container text-center py-5">
+                <img src="./Images/15-Goshin2015.jpeg" alt="Beautiful Bonsai" class="img-fluid goshin">
+                <figcaption class="figure-caption p-1">John Yoshi Naka's famous masterpiece "Goshin"</figcaption>
+                <blockquote class="pb-4">
+                    <p class="blockquote quote flex-nowrap">
+                        "The bonsai is not you working on the tree; you have to have the tree work on you."
+                        <br>
+                        -John Y. Naka
+                    </p>
+                </blockquote>
+            </div>
+        </section>
+
+
+        <!-- Cards linking to other pages -->
+        <section class="cards-section">
+            <div class="container d-flex py-5">
+                <div class="card mx-1 w-50">
+                    <img src="./Images/bonsai-tree-history-2.jpg" alt="History and Prominent Figures" class="card-img-top card-pic">
+                    <div class="card-body">
+                        <h3 class="card-title">History and Prominent Figures</h3>
+                        <p class="card-text">Explore the rich history of bonsai and learn about the influential
+                            individuals who shaped this art form.</p>
+                        <a href="bonsaibloom-history.html" class="btn btn-primary d-flex justify-content-center ">Learn More</a>
+                    </div>
+                </div>
+                <div class="card mx-1 w-50">
+                    <img src="./Images/types.webp" alt="Species Guide" class="card-img-top card-pic">
+                    <div class="card-body">
+                        <h3 class="card-title">Species Guide</h3>
+                        <p class="card-text">Discover the diverse range of bonsai tree species and their unique
+                            characteristics.</p>
+                        <a href="bonsaibloom-species.html" class="btn btn-primary d-flex justify-content-center">Learn More</a>
+                    </div>
+                </div>
+                <div class="card mx-1 w-50">
+                    <img src="./Images/styling and care.jpg" alt="Styling and Care" class="card-img-top card-pic">
+                    <div class="card-body">
+                        <h3 class="card-title">Styling and Care</h3>
+                        <p class="card-text">Master the art of bonsai styling and learn how to care for your
+                            miniature trees.</p>
+                        <a href="bonsaibloom-s&c.html" class="btn btn-primary d-flex justify-content-center">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Newsletter & community form -->
+        <section class="newsletter-section">
+            <div class="container py-4">
+                <h2 class="text-center">Join Our Community and Newsletter</h2>
+                <form action="#" method="post">
+                    <label class="form-label align-text-start">
+                        <input type="radio" name="subscription" value="styling_tips" >
+                        I want to receive bonsai styling tips in the future.
+                    </label><br>
+                    <label>
+                        <input type="radio" name="subscription" value="care_reminders">
+                        I want to receive bonsai care reminders in the future.
+                    </label><br>
+                    <label>
+                        <input type="radio" name="subscription" value="species_updates">
+                        I want to receive updates on new bonsai species and guides.
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="join_community" value="yes" required>
+                        I want to join the BonsaiBloom community.
+                    </label><br>
+                    <input type="email" name="email" placeholder="Enter your email address" required><br>
+                    <button type="submit" class="btn btn-primary mt-1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

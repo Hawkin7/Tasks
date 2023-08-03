@@ -1,0 +1,94 @@
+body {
+    background-image: url('./Images/background3.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;  
+}
+.myheader {
+    max-height: 10%;
+    background-color: rgb(250, 235, 215);
+    border-top: none;
+    color: black; 
+}
+.head-logo {
+    margin-top: 0%;
+    /* max-inline-size: 200px; */
+    max-width: 15vw; 
+    max-height: 15vh;
+}
+.header-links {   
+    column-gap: 2px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+h2, h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    align-items: center;
+    color: black;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+}
+blockquote {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(250, 235, 215, 0.6);
+    border-radius: 10px;
+    padding-top: 2rem;
+    margin: 2rem;
+}
+.goshin {
+    max-height: 50rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.figure-caption {
+    color: black;
+    background-color: rgb(250, 235, 215, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0rem 22.7%
+}
+.text-section {
+    background-color: rgba(250, 235, 215, 0.8);
+    margin: 2rem;
+    border-radius: 5px;
+}
+.card-pic {
+    width: 100%;
+    height: 50vh;
+    object-fit:cover;
+}
+.card {
+    max-width: 50rem;
+}
+.newsletter-section {
+    background-color: rgb(250, 235, 215,0.5);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+form {
+    justify-content: center;
+    padding: 0 3rem 3rem 4rem;
+}
